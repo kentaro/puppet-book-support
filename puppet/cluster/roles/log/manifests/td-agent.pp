@@ -1,8 +1,8 @@
-class app::td-agent {
+class log::td-agent {
   include ::td-agent
-  include app::td-agent::config
+  include log::td-agent::config
 
      Class['::td-agent::install']
-  -> Class['app::td-agent::config']
+  -> Class['log::td-agent::config']
   ~> Class['::td-agent::service']
 }
