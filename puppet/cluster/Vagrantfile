@@ -2,17 +2,17 @@
 # vi: set ft=ruby :
 
 Vagrant.configure("2") do |config|
-  config.vm.box     = "centos-6.4"
-  config.vm.box_url = "http://developer.nrel.gov/downloads/vagrant-boxes/CentOS-6.4-x86_64-v20130309.box"
+  config.vm.box     = "centos-6.4-puppet"
+  config.vm.box_url = "http://puppet-vagrant-boxes.puppetlabs.com/centos-64-x64-vbox4210.box"
 
   config.vm.define :app do |app_config|
     app_config.vm.hostname = "app.puppet-book.local"
-    app_config.vm.network :private_network, ip: "192.168.1.100"
+    app_config.vm.network :private_network, ip: "192.168.0.100"
   end
 
   config.vm.define :log do |log_config|
     log_config.vm.hostname = "log.puppet-book.local"
-    log_config.vm.network :private_network, ip: "192.168.1.101"
+    log_config.vm.network :private_network, ip: "192.168.0.101"
     log_config.vm.network :forwarded_port, guest: 24224, host: 24224
   end
 end
