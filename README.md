@@ -5,6 +5,12 @@
   * 本書で掲載したmanifestなどをGitリポジトリとしてそのまま提供する
   * [issue](https://github.com/kentaro/puppet-book-support/issues)により、サポートを行う
 
+『入門Puppet』は以下のストアサイトで購入できます。
+
+  * [Kindle版(Amazon)](http://www.amazon.co.jp/exec/obidos/ASIN/B00CL92JC0/antipop-22/)
+  * [ブクログのパブー版](http://p.booklog.jp/book/70667)
+  * 達人出版会からも刊行される予定です
+
 ## 本書「はじめに」より
 
 > ### はじめに
