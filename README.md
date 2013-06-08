@@ -9,7 +9,7 @@
 
   * [Kindle版(Amazon)](http://www.amazon.co.jp/exec/obidos/ASIN/B00CL92JC0/antipop-22/)
   * [ブクログのパブー版](http://p.booklog.jp/book/70667)
-  * 達人出版会からも刊行される予定です
+  * [達人出版会版](http://tatsu-zine.com/books/puppet)
 
 ## 本書「はじめに」より
 
